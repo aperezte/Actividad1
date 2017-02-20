@@ -1,0 +1,90 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Exo', sans-serif;*/
+
+/*
+ etiqueta{
+	propiedad: valor;
+} 
+*/
+
+body {
+	background-image: url(../IMG/fverde.jpg); /* fondo */
+    font-family: 'Exo', sans-serif; /* fuente de letra */
+}
+
+#contenido{
+	background-image: url(../IMG/fcrema.jpg);
+	width: 960px;
+	margin: 0 auto; /* margen */
+	text-align: center; /* alinear texto */
+	color: DarkCyan; 
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /* sombra */
+}
+
+
+#titulo1 {
+     width: 960px;
+     height: 50px;
+     box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /* sombra */
+
+}
+#Mifoto{
+	width: 250px;
+	height: 270px;
+	margin-top: 20px;
+    border-radius: 200px; /* margen redondiado en los bordes*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /* sombra */
+}
+
+section article.info{
+	 border-width: 1px;
+	 border-style: solid;
+	 display: inline-block;
+	 vertical-align: top;
+	 position: relative;
+	 border-radius: 15px 0px 15px 15px;
+     box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /* sombra */
+     margin: 50px 0px 10px 10%;
+     width: 60%;
+     font-size: 1.0em; /*tamaño de la fuente*/	
+     text-align: justify;
+     padding: 10px 15px;
+ }
+
+section article span.tipo{
+	position: absolute;
+	border-width: 2px;
+	border-style: solid;
+	top: -38px;
+	right: -1px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 10px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+section article ul{
+ list-style: none;
+  margin: 0;
+  padding: 10px 10px;
+  width: 400px;
+  font-size: 1.0em;
+}
+
+
+ footer {
+  margin: 20px;  
+  padding: 10px 10px;
+  width: 900px;
+  font-size: 1.0em;
+ 
+ }
+
+ footer ul{
+ list-style: none;
+  margin: 20px;
+  padding: 10px 10px;
+font-size: 1.0em;
+ }
